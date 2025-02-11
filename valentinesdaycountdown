@@ -1,0 +1,7 @@
+from datetime import datetime
+rn = datetime.now()
+valentine = datetime(2025,2,14,0,0,0)
+time = valentine - rn 
+timeinhour=time.total_seconds()/3600
+print (time)
+print (timeinhour, "till valentines day!!!")
